@@ -70,6 +70,11 @@ async def get_weather_async_wrapper(city, api_key):
 st.set_page_config(page_title="Анализ Температур", layout="wide")
 st.title("🌤 Анализ температур и мониторинг погоды")
 
+if st.sidebar.button("🐈 Нажми на меня, чтобы получить котика"):
+    st.sidebar.image("https://cataas.com/cat", caption="Мяу! Держи котика для настроения.")
+    st.sidebar.toast("Котик успешно добавлен! 🐾")
+st.sidebar.markdown("---")
+
 st.sidebar.header("Настройки")
 
 uploaded_file = st.sidebar.file_uploader("Загрузите файл с историческими данными (CSV)", type="csv")
