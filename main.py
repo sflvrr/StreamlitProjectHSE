@@ -189,18 +189,20 @@ footer_html = """
 .custom-footer {
     position: fixed;
     bottom: 15px;
-    right: 15px;
+    left: 50%;
+    transform: translateX(-50%);
     color: #888888;
     font-size: 14px;
     font-family: sans-serif;
     z-index: 9999;
     background-color: rgba(255, 255, 255, 0.7);
-    padding: 5px 10px;
+    padding: 5px 15px;
     border-radius: 5px;
+    text-align: center;
 }
 </style>
 <div class="custom-footer">
-    Created by Сёма in Klagenfurt\t\t\t
+    Created by LTd
 </div>
 """
 st.markdown(footer_html, unsafe_allow_html=True)
