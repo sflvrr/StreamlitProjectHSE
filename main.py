@@ -182,3 +182,25 @@ if uploaded_file is not None:
 
 else:
     st.info("Пожалуйста, загрузите файл `temperature_data.csv` в меню слева, чтобы начать.")
+
+
+footer_html = """
+<style>
+.custom-footer {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    color: #888888;
+    font-size: 14px;
+    font-family: sans-serif;
+    z-index: 9999;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+</style>
+<div class="custom-footer">
+    Created by Сёма in Klagenfurt
+</div>
+"""
+st.markdown(footer_html, unsafe_allow_html=True)
