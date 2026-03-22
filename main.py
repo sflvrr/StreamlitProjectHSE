@@ -71,7 +71,7 @@ st.set_page_config(page_title="Анализ Температур", layout="wide"
 st.title("🌤 Анализируем погодку и паттерны ее изменения")
 
 if st.sidebar.button("Нужно сюда нажать!! ฅ^•ﻌ•^ฅ"):
-    st.sidebar.image("https://cataas.com/cat", caption="Мяу! Держи котика для настроения.")
+    st.sidebar.image("https://cataas.com/cat", caption="Вот! Держите котика для настроения.")
     st.toast("Котик успешно добавлен! 🐾")
 st.sidebar.markdown("---")
 
