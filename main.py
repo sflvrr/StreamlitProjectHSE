@@ -68,9 +68,9 @@ async def get_weather_async_wrapper(city, api_key):
 
 
 st.set_page_config(page_title="Анализ Температур", layout="wide")
-st.title("🌤 Анализ температур и мониторинг погоды")
+st.title("🌤 Анализируем погодку и паттерны ее изменения")
 
-if st.sidebar.button("🐈 Нажми на меня, чтобы получить котика"):
+if st.sidebar.button("Нужно сюда нажать!! ฅ^•ﻌ•^ฅ"):
     st.sidebar.image("https://cataas.com/cat", caption="Мяу! Держи котика для настроения.")
     st.toast("Котик успешно добавлен! 🐾")
 st.sidebar.markdown("---")
