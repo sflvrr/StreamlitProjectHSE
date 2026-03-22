@@ -200,7 +200,7 @@ footer_html = """
 }
 </style>
 <div class="custom-footer">
-    Created by Сёма in Klagenfurt
+    Created by Сёма in Klagenfurt\t\t\t
 </div>
 """
 st.markdown(footer_html, unsafe_allow_html=True)
